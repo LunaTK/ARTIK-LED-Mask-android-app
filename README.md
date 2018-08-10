@@ -1,6 +1,8 @@
 # ARTIK-LED-Mask-android-app
 Android application for artik led mask management.
 
+[Mask Client application](https://github.com/LunaTK/ARTIK-LED-Mask-Client)
+
 ## Screenshots
 
 <p align="center">
