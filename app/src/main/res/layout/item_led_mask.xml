@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <import
+            type="com.lunatk.ledmaskapp.objects.LEDMask"/>
+        <variable
+            name="ledMask"
+            type="LEDMask"/>
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="10dp">
+
+        <TextView
+            android:text="@{ledMask.nickname}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="@sample/mask_nicknames"/>
+
+        <TextView
+            android:text="@{ledMask.id}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="@sample/mask_ids"/>
+
+    </LinearLayout>
+</layout>
